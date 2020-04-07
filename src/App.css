@@ -1,15 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Merriweather:wght@300&display=swap");
 .App {
 	display: flex;
 	justify-content: center;
+	color: aliceblue;
+}
+/* ///////////////// */
+/* CsHints Component */
+/* ///////////////// */
+.CsHints {
+	background: #1f2231;
+	width: 100%;
+
+	display: flex;
 }
 
-.card {
-	background: linear-gradient(to top, red, pink);
-	width: 200px;
-	height: 280px;
+/* ///////////////// */
+/* LeftPanel */
+/* ///////////////// */
+
+.leftPanel {
+	background: green;
+	margin-top: 10px;
+	padding-top: 10px;
+	width: 20%;
+
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	border-radius: 2px;
+	justify-content: center;
 	align-items: center;
+	text-align: center;
+}
+
+.userSec {
+	background: purple;
+	width: 15rem;
+}
+
+.userImg {
+	background: black;
+	object-fit: cover;
+	box-sizing: border-box;
+	/* min-width: 10rem;
+	max-width: 10rem; */
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+}
+
+/* ///////////////// */
+/* NavSec */
+/* ///////////////// */
+
+.displaySec {
+	background: red;
+	margin-top: 10px;
+
+	width: 80%;
+}
+
+/* ////////////////// */
+/* Weather Component */
+/* ////////////////// */
+.card {
+	background: linear-gradient(to bottom, red, pink);
+	width: 200px;
+	height: 240px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 15px;
+	align-items: center;
+}
+
+.location {
+	text-align: center;
+}
+
+.city {
+	font-family: "Merriweather", sans-serif;
+	font-size: 1.6rem;
+}
+
+.country {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 1.1rem;
+}
+
+.temp {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 2rem;
+}
+
+.condition {
+	font-family: "Merriweather", sans-serif;
+	font-size: 1.2rem;
 }
