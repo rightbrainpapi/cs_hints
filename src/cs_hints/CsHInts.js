@@ -1,7 +1,9 @@
 import React from "react";
 import { FaEdit } from "react-icons/fa";
 
-const CsHints = () => {
+import Button from "./components/Button.jsx";
+
+const CsHints = (props) => {
 	return (
 		<div className="CsHints">
 			<div className="leftPanel">
@@ -17,11 +19,46 @@ const CsHints = () => {
 					<h1 className="userName">Darnell</h1>
 				</div>
 				<div className="navSec">
-					<button className="navBtn">CS Hints</button>
-					<button className="navBtn">Profile</button>
-					<button className="navBtn">Resources</button>
-					<button className="navBtn">News</button>
-					<button className="navBtn">Logout</button>
+					<Button
+						onClick={() => {
+							console.log("This button was clicked");
+						}}
+						type="button"
+						buttonStyle="btn--nav--solid"
+						text="CS Hints"
+					></Button>
+					<Button
+						onClick={() => {
+							console.log("This button was clicked");
+						}}
+						type="button"
+						buttonStyle="btn--nav--solid"
+						text="Profile"
+					></Button>
+					<Button
+						onClick={() => {
+							console.log("This button was clicked");
+						}}
+						type="button"
+						buttonStyle="btn--nav--solid"
+						text="Resources"
+					></Button>
+					<Button
+						onClick={() => {
+							console.log("This button was clicked");
+						}}
+						type="button"
+						buttonStyle="btn--nav--solid"
+						text="News"
+					></Button>
+					<Button
+						onClick={() => {
+							console.log("This button was clicked");
+						}}
+						type="button"
+						buttonStyle="btn--nav--solid"
+						text="Logout"
+					></Button>
 				</div>
 			</div>
 			<div className="displaySec"></div>
