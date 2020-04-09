@@ -76,7 +76,7 @@ class CsHints extends Component {
 				</div>
 				<div className="displaySec">
 					<h2>Some Title</h2>
-					<Page selectedPage="profile" />
+					<Page selectedPage={this.state.page} />
 				</div>
 			</div>
 		);
