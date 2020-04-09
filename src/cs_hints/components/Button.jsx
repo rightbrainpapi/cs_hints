@@ -1,8 +1,9 @@
 import React from "react";
-import "./button.css";
+import "./styles/button.css";
 
 const STYLES = [
 	"btn--nav--solid",
+	"btn--ico--solid",
 	"btn--primary--solid",
 	"btn--warning--solid",
 	"btn--danger--solid",

@@ -7,10 +7,31 @@ import CsHints from "./cs_hints/CsHInts";
 
 function App() {
 	// whenClicked is a property not an event, per se
+
+	function UserGreeting(props) {
+		return (
+			<CsHints
+				userName="Darnell"
+				userPicSrc="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fdarnell.png?v=1584322716006"
+			/>
+		);
+	}
+
+	function GuestGreeting(props) {
+		return <h1>Please sign up.</h1>;
+	}
+
+	function Greeting(props) {
+		const isLoggedIn = props.isLoggedIn;
+		if (isLoggedIn) {
+			return <UserGreeting />;
+		}
+		return <GuestGreeting />;
+	}
 	return (
 		<div className="App">
-			{/* <WeatherCard /> */}
-			<CsHints />
+			{/* <WeatherCard /> <CsHints />*/}
+			<Greeting isLoggedIn={true} />,
 		</div>
 	);
 }

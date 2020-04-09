@@ -122,10 +122,27 @@
 /* ///////////////// */
 
 .displaySec {
-	background: red;
+	/* background: red; */
 	margin: 10px 0 10px 0;
 	padding: 10px 0 10px 0;
 	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+/* ///////////// */
+/* resourcesPage */
+/* ///////////// */
+
+.resourcesPage {
+	/* align-self: flex-start; */
+	width: 100%;
+	height: 95%;
+
+	background: navajowhite;
 }
 
 /* ////////////////// */

@@ -6,6 +6,9 @@
 
 # CS Hints
 
+<!-- React Tutorial -->
+<!-- https://www.youtube.com/watch?v=mad-WmkMZd8&list=PLDIXF8nb0VG1v4S-smVy7GV0MHsJ3PJiL&index=2 -->
+
 Has anyone ever asked you for a recommended list of coding resources? Well, our team has been asked many times over. This is why we decided to build CS Hints.
 
 CS Hints cuts through the clutter to deliver coding resources built to help you master technical concepts. CS Hints allow users to search for, save, and share technical resources with friends or themselves.
