@@ -8,7 +8,7 @@ import CsHints from "./cs_hints/CsHInts";
 function App() {
 	// whenClicked is a property not an event, per se
 
-	function UserGreeting(props) {
+	function UserInterface(props) {
 		return (
 			<CsHints
 				userName="Darnell"
@@ -17,16 +17,16 @@ function App() {
 		);
 	}
 
-	function GuestGreeting(props) {
+	function GuestInterface(props) {
 		return <h1>Please sign up.</h1>;
 	}
 
 	function Greeting(props) {
 		const isLoggedIn = props.isLoggedIn;
 		if (isLoggedIn) {
-			return <UserGreeting />;
+			return <UserInterface />;
 		}
-		return <GuestGreeting />;
+		return <GuestInterface />;
 	}
 	return (
 		<div className="App">

@@ -38,6 +38,7 @@ const Button = ({
 			children={children}
 			buttonStyle={buttonStyle}
 			buttonSize={buttonSize}
+			name={text}
 		>
 			{text}
 		</button>

@@ -12,37 +12,8 @@ class CsHints extends Component {
 			userName: "Darnell",
 			userPicSrc:
 				"https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fdarnell.png?v=1584322716006",
-			value: 0,
-			message: "default click state",
-			page: "",
 		};
 	}
-
-	onClickfn = (e) => {
-		console.log(e.target.name);
-		const clickedPage = e.target.name;
-		this.setState((prevState, props) => ({
-			value: prevState.value + 1,
-			page: clickedPage,
-		}));
-
-		this.setState((prevState, props) => ({
-			page: prevState.page,
-		}));
-
-		this.setState(
-			(prevState, props) => ({
-				message: `click-state ${prevState.value}`,
-			}),
-			() => {
-				this.logStat();
-			}
-		);
-	};
-
-	logStat = () => {
-		console.log(`After update: ${this.state.value}`);
-	};
 
 	render() {
 		const buttons = ["CS Hints", "Profile", "Resources", "News", "Logout"];
@@ -65,20 +36,16 @@ class CsHints extends Component {
 						{buttonsMap.map((i) => {
 							return (
 								<Button
-									onClick={this.onClickfn}
+									onClick={() => {
+										console.log(`Button: ${buttons[i]} was clicked`);
+									}}
 									type="button"
 									buttonStyle="btn--nav--solid"
 									text={buttons[i]}
-									name={buttons[i]}
 								/>
 							);
 						})}
 					</div>
-					<div>
-						render->state={this.state.value} -{this.state.message}
-					</div>
-
-					<button onClick={this.onClickfn}>Click-setState fn</button>
 				</div>
 				<div className="displaySec">
 					<h2>Some Title</h2>
