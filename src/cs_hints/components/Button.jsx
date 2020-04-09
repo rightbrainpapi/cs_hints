@@ -22,22 +22,22 @@ const Button = ({
 	type,
 	text,
 
-	buttonStyle,
-	buttonSize,
+	buttonstyle,
+	buttonsize,
 }) => {
-	const checkButtonStyle = STYLES.includes(buttonStyle)
-		? buttonStyle
+	const checkButtonStyle = STYLES.includes(buttonstyle)
+		? buttonstyle
 		: STYLES[0];
 
-	const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+	const checkButtonSize = SIZES.includes(buttonsize) ? buttonsize : SIZES[0];
 	return (
 		<button
 			className={`btn ${checkButtonStyle} ${checkButtonSize} `}
 			onClick={onClick}
 			type={type}
 			children={children}
-			buttonStyle={buttonStyle}
-			buttonSize={buttonSize}
+			buttonstyle={buttonstyle}
+			buttonsize={buttonsize}
 			name={text}
 		>
 			{text}

@@ -1,7 +1,7 @@
 import React from "react";
 
 //Personal Imports
-import WeatherCard from "./WeatherCard";
+// import WeatherCard from "./WeatherCard";
 import "./App.css";
 import CsHints from "./cs_hints/CsHInts";
 
