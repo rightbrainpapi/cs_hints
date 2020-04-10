@@ -14,25 +14,18 @@ class CsHints extends Component {
 			value: 0,
 			message: "default click state",
 			buttons: ["CS Hints", "Profile", "Resources", "News", "Logout"],
-			page: "",
+			page: "profile",
 		};
 	}
 
 	onClickfn = (e) => {
 		console.log(e.target.name);
 		const clickedPage = e.target.name;
-		this.setState((prevState, props) => ({
-			value: prevState.value + 1,
-			page: clickedPage,
-		}));
-
-		this.setState((prevState, props) => ({
-			page: prevState.page,
-		}));
+		this.changePage(clickedPage);
 
 		this.setState(
 			(prevState, props) => ({
-				message: `click-state ${prevState.value}`,
+				message: `click-state ${prevState.page}`,
 			}),
 			() => {
 				this.logStat();
@@ -40,8 +33,21 @@ class CsHints extends Component {
 		);
 	};
 
+	changePage(page) {
+		this.setState((prevState, props) => ({
+			page: page,
+		}));
+	}
+
+	handleChange(e) {
+		const page = e.target.value;
+		this.changeUserName(page);
+	}
+
 	logStat = () => {
 		console.log(`After update: ${this.state.value}`);
+		console.log(`After update: ${this.state.page}`);
+		console.log(this.state.message);
 	};
 
 	render() {
@@ -73,10 +79,14 @@ class CsHints extends Component {
 							);
 						})}
 					</div>
+					<input onChange={this.handleChange.bind(this)}></input>
 				</div>
 				<div className="displaySec">
-					<h2>Some Title</h2>
-					<Page selectedPage={this.state.page} />
+					<h2>{this.state.page}</h2>
+					<Page
+						changePage={this.changePage.bind(this)}
+						selectedPage={this.state.page}
+					/>
 				</div>
 			</div>
 		);

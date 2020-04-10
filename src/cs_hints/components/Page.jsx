@@ -18,19 +18,20 @@ class Page extends Component {
 		function SwitchPage(props) {
 			const selectedPage = props.selectedPage;
 			switch (selectedPage) {
-				case "resources":
+				case "Resources" || "resources":
 					return <ResourcePage />;
-				case "news":
+				case "News" || "news":
 					return <NewsPage />;
-				case "profile":
+				case "Profile" || "profile":
 					return <ProfilePage />;
 				default:
 					return <h1>This is the default</h1>;
 			}
 		}
+
 		return (
 			<div className="resourcesPage">
-				<SwitchPage selectedPage={this.props.selectedPage} />,
+				<SwitchPage selectedPage={this.props.selectedPage} />
 			</div>
 		);
 	}
