@@ -82,11 +82,15 @@ class CsHints extends Component {
 					<input onChange={this.handleChange.bind(this)}></input>
 				</div>
 				<div className="displaySec">
-					<h2>{this.state.page}</h2>
-					<Page
-						changePage={this.changePage.bind(this)}
-						selectedPage={this.state.page}
-					/>
+					<h2>
+						{
+							//Check if message failed
+							this.state.page.toUpperCase() === "LOGOUT"
+								? "Profile".toUpperCase()
+								: this.state.page.toUpperCase()
+						}
+					</h2>
+					<Page selectedPage={this.state.page} />
 				</div>
 			</div>
 		);

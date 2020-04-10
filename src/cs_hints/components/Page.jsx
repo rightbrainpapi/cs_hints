@@ -1,6 +1,14 @@
 import React, { Component } from "react";
 import "./styles/Page.css";
 
+function CsHintsPage(props) {
+	return <h1>Cs HInts Page...</h1>;
+}
+
+function ProfilePage(props) {
+	return <h1>ProfilePage...</h1>;
+}
+
 function ResourcePage(props) {
 	return <h1>Resources...</h1>;
 }
@@ -9,23 +17,22 @@ function NewsPage(props) {
 	return <h1>News...</h1>;
 }
 
-function ProfilePage(props) {
-	return <h1>ProfilePage...</h1>;
-}
-
 class Page extends Component {
 	render() {
 		function SwitchPage(props) {
 			const selectedPage = props.selectedPage;
-			switch (selectedPage) {
-				case "Resources" || "resources":
-					return <ResourcePage />;
-				case "News" || "news":
-					return <NewsPage />;
-				case "Profile" || "profile":
+			switch (selectedPage.toLowerCase()) {
+				case "cs hints":
+					return <CsHintsPage />;
+				case "profile":
 					return <ProfilePage />;
+				case "resources":
+					return <ResourcePage />;
+				case "news":
+					return <NewsPage />;
 				default:
-					return <h1>This is the default</h1>;
+					//The logout butoon was pressed
+					return <ProfilePage />;
 			}
 		}
 
