@@ -2,10 +2,139 @@
 /* resourcesPage */
 /* ///////////// */
 
-.resourcesPage {
+.PagesSection {
 	/* align-self: flex-start; */
+	background: navajowhite;
 	width: 100%;
 	height: 95%;
 
-	background: navajowhite;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.ProfilePage {
+	width: 100%;
+	background: salmon;
+}
+
+.myHintsSec {
+	background: rgb(146, 219, 212);
+	border: 1px solid salmon;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.hintsContainer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.myNewsSec {
+	background: olivedrab;
+}
+
+/* ///////////////////// */
+/* Single Hint Component */
+/* ///////////////////// */
+.hintCard {
+	/* margin: 20px; */
+	padding: 10px;
+	background: linear-gradient(
+		to bottom,
+		/* salmon, */ rgb(255, 157, 146),
+		rgb(248, 165, 156),
+		rgb(255, 227, 224)
+	);
+	/* width: 200px; */
+	/* background: green; */
+	width: 30rem;
+	/* height: 240px; */
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+	/* justify-content: space-around; */
+	border-radius: 15px;
+	align-items: center;
+	color: black;
+}
+
+.hintName {
+	font-family: "Merriweather", sans-serif;
+	font-size: 1rem;
+}
+
+.hintCost {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 1.1rem;
+	align-self: flex-end;
+	color: whitesmoke;
+}
+
+.hintCost:hover {
+	color: salmon;
+}
+
+.buttonCon {
+	/* background: green; */
+	align-self: flex-end;
+	display: flex;
+	justify-content: space-between;
+	width: 15%;
+	height: 15%;
+}
+
+/* ///////////////////// */
+/* ///Image & Text Sec// */
+/* ///////////////////// */
+.ImageAndText {
+	/* background: green; */
+	display: flex;
+	/* justify-content: space-between; */
+	justify-content: space-evenly;
+	width: 95%;
+	height: 65%;
+	text-align: left;
+	overflow: hidden;
+	align-items: center;
+}
+
+.hintImg {
+	display: flex;
+	text-align: center;
+	/* background: royalblue; */
+	align-items: center;
+	height: 100%;
+}
+
+.textInfo {
+	/* background: turquoise; */
+	height: 80%;
+	width: 75%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	color: black;
+}
+
+.temp {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 2rem;
+}
+
+.condition {
+	font-family: "Merriweather", sans-serif;
+	font-size: 1.2rem;
+}
+
+.hintIcon {
+	width: 5rem;
 }

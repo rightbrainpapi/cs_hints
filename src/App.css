@@ -2,13 +2,13 @@
 .App {
 	display: flex;
 	justify-content: center;
-	color: aliceblue;
+	color: #1f2231;
 }
 /* ///////////////// */
 /* CsHints Component */
 /* ///////////////// */
 .CsHints {
-	background: #1f2231;
+	background: snow;
 	width: 100vw;
 	height: 100vh;
 
@@ -36,7 +36,9 @@
 }
 
 .userSec {
-	background: purple;
+	background: rgb(146, 219, 212);
+	border: 1px solid salmon;
+	border-radius: 2px;
 	padding: 10px 0 10px 0;
 	width: 15rem;
 	/* position: absolute;
@@ -74,7 +76,9 @@
 }
 
 .navSec {
-	background: blueviolet;
+	background: rgb(146, 219, 212);
+	border: 1px solid salmon;
+	border-radius: 2px;
 	margin-top: 10px;
 	padding: 10px 0 10px 0;
 	width: 15rem;
@@ -123,7 +127,7 @@
 
 .displaySec {
 	/* background: red; */
-	margin: 10px 0 10px 0;
+	margin: 20px 0 10px 0;
 	padding: 10px 0 10px 0;
 	width: 80%;
 	display: flex;
@@ -131,6 +135,8 @@
 	align-items: center;
 	justify-content: center;
 	justify-content: space-evenly;
+	/* background: turquoise; */
+	border-radius: 2px;
 }
 
 /* ////////////////// */

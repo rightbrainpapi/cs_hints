@@ -21,12 +21,12 @@ class Page extends Component {
 					return <NewsPage />;
 				default:
 					//The logout butoon was pressed
-					return <ProfilePage />;
+					return <CsHintsPage />;
 			}
 		}
 
 		return (
-			<div className="resourcesPage">
+			<div className="PagesSection">
 				<SwitchPage selectedPage={this.props.selectedPage} />
 			</div>
 		);

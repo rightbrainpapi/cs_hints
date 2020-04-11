@@ -79,7 +79,6 @@ class CsHints extends Component {
 							);
 						})}
 					</div>
-					<input onChange={this.handleChange.bind(this)}></input>
 				</div>
 				<div className="displaySec">
 					<h2>

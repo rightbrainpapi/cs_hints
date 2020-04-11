@@ -31,7 +31,7 @@ function App() {
 	return (
 		<div className="App">
 			{/* <WeatherCard /> <CsHints />*/}
-			<Greeting isLoggedIn={true} />,
+			<Greeting isLoggedIn={true} />
 		</div>
 	);
 }
