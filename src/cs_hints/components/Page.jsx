@@ -1,21 +1,10 @@
 import React, { Component } from "react";
+
 import "./styles/Page.css";
-
-function CsHintsPage(props) {
-	return <h1>Cs HInts Page...</h1>;
-}
-
-function ProfilePage(props) {
-	return <h1>ProfilePage...</h1>;
-}
-
-function ResourcePage(props) {
-	return <h1>Resources...</h1>;
-}
-
-function NewsPage(props) {
-	return <h1>News...</h1>;
-}
+import ProfilePage from "./ProfilePage";
+import ResourcePage from "./ResourcePage";
+import CsHintsPage from "./CsHintsPage";
+import NewsPage from "./NewsPage";
 
 class Page extends Component {
 	render() {
