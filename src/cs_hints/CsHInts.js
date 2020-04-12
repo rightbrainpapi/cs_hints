@@ -52,44 +52,64 @@ class CsHints extends Component {
 
 	render() {
 		return (
-			<div className="CsHints">
-				<div className="leftPanel">
-					<div className="userSec">
-						<img
-							className="userImg"
-							src={this.state.userPicSrc}
-							alt="userPic"
-						/>
-						<div className="userEdit">
-							<FaEdit className="userEditIco" />
+			<div className="parentContainer">
+				<div className="topNav">
+					<div className="container">
+						<div className="titleSec">
+							<h1 className="title"> CS Hints</h1>
+							<p className="subTitle"> Search | Save | Share</p>
 						</div>
-						<h1 className="userName"> {this.state.userName}</h1>
+
+						<div className="topNavIco">
+							<img
+								src="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FcsHintsFavIcon.png?v=1585942167355"
+								alt=""
+							/>
+						</div>
 					</div>
-					<div className="navSec">
-						{this.state.buttons.map((button, i) => {
-							return (
-								<Button
-									key={i}
-									onClick={this.onClickfn}
-									type="button"
-									buttonstyle="btn--nav--solid"
-									text={button}
-									name={button}
-								/>
-							);
-						})}
+					<div className="buttonContainer">
+						<button className="joinBtn">logout</button>
 					</div>
 				</div>
-				<div className="displaySec">
-					<h2>
-						{
-							//Check if message failed
-							this.state.page.toUpperCase() === "LOGOUT"
-								? "Profile".toUpperCase()
-								: this.state.page.toUpperCase()
-						}
-					</h2>
-					<Page selectedPage={this.state.page} />
+				<div className="CsHints">
+					<div className="leftPanel">
+						<div className="userSec">
+							<img
+								className="userImg"
+								src={this.state.userPicSrc}
+								alt="userPic"
+							/>
+							<div className="userEdit">
+								<FaEdit className="userEditIco" />
+							</div>
+							<h1 className="userName"> {this.state.userName}</h1>
+						</div>
+						<div className="navSec">
+							{this.state.buttons.map((button, i) => {
+								return (
+									<Button
+										key={i}
+										onClick={this.onClickfn}
+										type="button"
+										buttonstyle="btn--nav--solid"
+										text={button}
+										name={button}
+									/>
+								);
+							})}
+						</div>
+					</div>
+					<div className="displaySec">
+						<h2>
+							{
+								//Check if message failed
+								this.state.page.toUpperCase() === "LOGOUT"
+									? "Profile".toUpperCase()
+									: this.state.page.toUpperCase()
+							}
+						</h2>
+						<Page selectedPage={this.state.page} />
+					</div>
 				</div>
 			</div>
 		);
