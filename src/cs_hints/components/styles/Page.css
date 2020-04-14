@@ -4,7 +4,10 @@
 
 .PagesSection {
 	/* align-self: flex-start; */
-	background: navajowhite;
+	/* background: navajowhite;*/
+	background: #f2f2f2;
+	background: linear-gradient(to top, #dbeeec, white);
+	background: snow;
 	width: 100%;
 	height: 95%;
 
@@ -16,11 +19,12 @@
 
 .ProfilePage {
 	width: 100%;
-	background: salmon;
+	/* background: salmon; */
 }
 
 .myHintsSec {
-	background: rgb(146, 219, 212);
+	/* background: rgb(146, 219, 212); */
+
 	border: 1px solid salmon;
 	width: 100%;
 	height: 100%;
@@ -114,8 +118,9 @@
 
 .textInfo {
 	/* background: turquoise; */
-	height: 80%;
+	height: 75%;
 	width: 75%;
+	text-overflow: hidden;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	text-overflow: ellipsis;
