@@ -25,7 +25,7 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-	color: rgb(3, 104, 104);
+	color: #036868;
 }
 
 .container {
@@ -79,6 +79,7 @@
 /* ///////////////// */
 .CsHints {
 	background: #fffcfc;
+
 	width: 100vw;
 	height: 100vh;
 
@@ -110,8 +111,9 @@
 .userSec {
 	/* background: rgb(146, 219, 212); */
 	background: #dbeeec;
-	color: snow;
-	background: rgb(3, 104, 104);
+	color: rgb(3, 104, 104);
+	color: black;
+	background: white;
 	border: 1px solid salmon;
 	border-radius: 2px;
 	padding: 10px 0 10px 0;
@@ -202,7 +204,12 @@
 /* ///////////////// */
 
 .displaySec {
-	/* background: red; */
+	background: red;
+	background: #036868;
+	/* background: rgb(248, 195, 189);
+	background: salmon; */
+
+	color: white;
 	margin: 20px 0 10px 0;
 	padding: 10px 0 10px 0;
 	width: 80%;
@@ -212,9 +219,14 @@
 	justify-content: center;
 	justify-content: space-evenly;
 	/* background: turquoise; */
-	border-radius: 2px;
+	border-radius: 30px;
+	border-left-style: solid;
+	color: #036868;
+	margin-right: 20px;
 }
-
+.pageTitle {
+	color: white;
+}
 /* ////////////////// */
 /* Weather Component */
 /* ////////////////// */
