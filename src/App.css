@@ -59,6 +59,10 @@ a {
 	padding: 1rem;
 }
 
+.userNav {
+	justify-content: center;
+}
+
 .left {
 	display: flex;
 	align-items: center;
@@ -439,14 +443,10 @@ button:focus {
 /* ///////////////// */
 .UserView {
 	background: #fffcfc;
-
 	width: 100vw;
 	height: 100vh;
-
 	display: flex;
-	/* position: absolute; */
-	/* padding-top: 5%; */
-	/* margin-top: 10%; */
+	margin-top: 5rem;
 }
 
 .GuestView {

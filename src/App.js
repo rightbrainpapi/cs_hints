@@ -6,6 +6,7 @@ import "./App.css";
 import UserView from "./cs_hints/UserView";
 import GuestView from "./cs_hints/components/GuestView";
 import Header from "./cs_hints/components/Header";
+import UserHeader from "./cs_hints/components/UserHeader";
 import Footer from "./cs_hints/components/Footer";
 
 function App() {
@@ -21,20 +22,29 @@ function App() {
 	}
 
 	function GuestInterface(props) {
-		return <GuestView />;
+		return (
+			<div>
+				<Header />
+				<GuestView />
+			</div>
+		);
 	}
 
 	function Greeting(props) {
 		const isLoggedIn = props.isLoggedIn;
 		if (isLoggedIn) {
-			return <UserInterface />;
+			return (
+				<div>
+					<UserHeader />
+					<UserInterface />
+				</div>
+			);
 		}
 		return <GuestInterface />;
 	}
 	return (
 		<div className="App">
-			<Header />
-			<Greeting isLoggedIn={true} />
+			<Greeting isLoggedIn={false} />
 			<Footer />
 		</div>
 	);
