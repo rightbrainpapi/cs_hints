@@ -57,6 +57,11 @@ class GuestView extends Component {
 						<div className="hero-overlay"></div>
 					</section>
 					<ProfilePage />
+					<footer className="footerContainer">
+						<div className="footer">
+							<h4>Copyright &copy; 2019 | CS Hints Group LLC. </h4>
+						</div>
+					</footer>
 				</div>
 			</div>
 		);

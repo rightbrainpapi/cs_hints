@@ -60,7 +60,7 @@ a {
 .logo a {
 	/* color: #000;
     color: rgb(20, 102, 94); */
-	color: salmon;
+	/* color: salmon; */
 	color: #036868;
 	font: bolder;
 }
@@ -810,4 +810,18 @@ button:focus {
 
 .hintIcon {
 	width: 5rem;
+}
+
+/* //////////////////////// */
+/* ///// footer Section /// */
+/* //////////////////////// */
+.footerContainer {
+	background: #fa8072;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 10px;
+	color: rgb(10, 65, 59);
+	background-color: #eee;
+	color: #036868;
 }
