@@ -10,6 +10,179 @@
 	height: 100%;
 }
 
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////// Header /////////////*/
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+.headerLogo {
+	width: 50px;
+	height: 50px;
+	border-style: none;
+	background-color: transparent;
+}
+
+/* ////////////// */
+/* ////////////// */
+/* ////////////// */
+/* Nav bar */
+/* ////////////// */
+/* ////////////// */
+/* ////////////// */
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo a {
+	/* color: #000;
+    color: rgb(20, 102, 94); */
+	color: salmon;
+	color: #036868;
+	font: bolder;
+}
+
+.logo h1 {
+	font-size: 2.1rem;
+}
+
+.logo p {
+	font-size: 1rem;
+}
+
+/* .logo-image{
+    width: 10%;
+    height: 10%;
+    border-radius: 25%;
+    border: solid;
+} */
+/* .active{
+    display: flex;
+} */
+
+.nav {
+	/* display: flex; */
+	align-items: center;
+}
+/* //////////////////////// */
+/* ////// Toggled li ////// */
+/* //////////////////////// */
+
+.active {
+	display: flex;
+}
+
+.nav li {
+	margin-right: 1.2rem;
+}
+
+.nav li a {
+	font-size: 14px;
+	font-weight: 550px;
+}
+
+.nav li:last-child a {
+	display: block;
+	/* background: #3cb46e; */
+	background: salmon;
+
+	color: #fff;
+	padding: 0.5rem 0.6rem;
+	border-radius: 5px;
+	transition: filter 0.5s ease-in-out;
+}
+
+.nav li:last-child a:hover {
+	filter: brightness(85%);
+}
+
+.nav-search-form {
+	margin-left: 1rem;
+}
+
+.nav-search-form input {
+	padding: 0.7rem;
+	border-radius: 20px;
+	border: none;
+	background-color: #eee;
+	width: 600px;
+	font-size: 0.9rem;
+	color: #333;
+	border: solid #036868;
+}
+
+.nav-search-form input:focus {
+	background: turquoise;
+	border: solid salmon;
+	transition: 0.2s ease-in;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+/* ////////////// */
+/* ////////////// */
+/* ////////////// */
+/* Category Nav */
+/* ////////////// */
+/* ////////////// */
+/* ////////////// */
+.category-nav {
+	display: flex;
+	padding-left: 0.6rem;
+	overflow: hidden;
+}
+
+.category-nav .category {
+	padding: 0.8rem;
+}
+
+.category a {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+
+.category a:hover {
+	color: #036868;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////// End Header /////////////*/
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
 /* /////////////////////////////// */
 /* /////////////////////////////// */
 /* /////////////////////////////// */

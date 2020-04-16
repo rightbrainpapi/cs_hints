@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TopNav from "./TopNav";
 import ProfilePage from "./ProfilePage";
+import Header from "./Header";
 
 // import "./styles/GuestView.css";
 
@@ -8,9 +9,9 @@ class GuestView extends Component {
 	render() {
 		return (
 			<div className="parentContainer">
-				<TopNav />
+				<Header />
 
-				<div className="CsHints GuestView">
+				<div className="GuestView">
 					<section className="hero">
 						<div className="hero-container">
 							<div className="hero-content">
