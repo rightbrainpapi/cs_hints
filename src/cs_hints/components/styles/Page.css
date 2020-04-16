@@ -2,9 +2,7 @@
 /* resourcesPage */
 /* ///////////// */
 
-.PagesSection {
-	/* align-self: flex-start; */
-
+/* .PagesSection {
 	background: snow;
 	background: transparent;
 	width: 100%;
@@ -19,7 +17,7 @@
 .ProfilePage {
 	width: 99%;
 	height: 95%;
-	/* background: white; */
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -27,20 +25,14 @@
 
 .myHintsSec,
 .myNewsSec {
-	/* background: rgb(146, 219, 212); */
 	background: white;
-
-	/* border: 1px solid salmon; */
 	width: 100%;
-	/* height: 50%; */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-content: center;
 	align-items: center;
-	/* justify-content: flex-start; */
 	justify-content: space-between;
-	/* margin-bottom: 20px; */
 }
 
 .secTitle {
@@ -49,21 +41,17 @@
 }
 
 .hintsContainer {
-	/* background: turquoise; */
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
-	/* justify-content: space-evenly; */
-	/* margin: 20px; */
-	/* width: 94%; */
+
 	height: 14rem;
 	min-height: 35%;
 	overflow-x: hidden;
 	overflow-x: auto;
 	align-items: center;
 	justify-content: center;
-	/* justify-content: flex-start; */
 }
 
 .sectionDivider {
@@ -73,30 +61,22 @@
 
 .myNewsSec {
 	background: white;
-}
+} */
 
 /* ///////////////////// */
 /* Single Hint Component */
 /* ///////////////////// */
-.hintCard {
+/* .hintCard {
 	margin: 20px;
 	padding: 10px;
-	/* background: linear-gradient(
-		to bottom,
-		 rgb(255, 157, 146),
-		rgb(248, 165, 156),
-		rgb(255, 227, 224)
-	); */
-	/* width: 200px; */
-	/* background: turquoise; */
+
 	border: 1px solid salmon;
 	width: 30rem;
-	/* height: 240px; */
+
 	height: 10rem;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-around; */
-	/* justify-content: space-around; */
+
 	border-radius: 15px;
 	align-items: center;
 	color: black;
@@ -123,21 +103,19 @@
 }
 
 .buttonCon {
-	/* background: green; */
 	align-self: flex-end;
 	display: flex;
 	justify-content: space-between;
 	width: 15%;
 	height: 15%;
-}
+} */
 
 /* ///////////////////// */
 /* ///Image & Text Sec// */
 /* ///////////////////// */
-.ImageAndText {
-	/* background: green; */
+/* .ImageAndText {
 	display: flex;
-	/* justify-content: space-between; */
+
 	justify-content: space-evenly;
 	width: 95%;
 	height: 65%;
@@ -149,13 +127,12 @@
 .hintImg {
 	display: flex;
 	text-align: center;
-	/* background: royalblue; */
+
 	align-items: center;
 	height: 100%;
 }
 
 .textInfo {
-	/* background: turquoise; */
 	height: 75%;
 	width: 75%;
 	text-overflow: hidden;
@@ -180,4 +157,4 @@
 
 .hintIcon {
 	width: 5rem;
-}
+} */
