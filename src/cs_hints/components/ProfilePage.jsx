@@ -78,7 +78,7 @@ class ProfilePage extends Component {
 						})}
 					</div>
 				</div>
-				<span className="centerLine"></span>
+				<span className="sectionDivider"></span>
 				<div className="myNewsSec">
 					<h3 className="secTitle">myNewsSec</h3>
 					<div className="hintsContainer">
