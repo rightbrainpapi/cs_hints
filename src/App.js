@@ -4,6 +4,7 @@ import React from "react";
 // import WeatherCard from "./WeatherCard";
 import "./App.css";
 import CsHints from "./cs_hints/CsHInts";
+import GuestView from "./cs_hints/components/GuestView";
 
 function App() {
 	// whenClicked is a property not an event, per se
@@ -18,7 +19,7 @@ function App() {
 	}
 
 	function GuestInterface(props) {
-		return <h1>Please sign up.</h1>;
+		return <GuestView />;
 	}
 
 	function Greeting(props) {
@@ -30,8 +31,7 @@ function App() {
 	}
 	return (
 		<div className="App">
-			{/* <WeatherCard /> <CsHints />*/}
-			<Greeting isLoggedIn={true} />
+			<Greeting isLoggedIn={false} />
 		</div>
 	);
 }

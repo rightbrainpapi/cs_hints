@@ -4,10 +4,20 @@
 	justify-content: center;
 	color: #1f2231;
 }
+
 .parentContainer {
 	width: 100%;
 	height: 100%;
 }
+
+/* /////////////////////////////// */
+/* /////////////////////////////// */
+/* /////////////////////////////// */
+/* ////////// Top Nav /////////////*/
+/* /////////////////////////////// */
+/* /////////////////////////////// */
+/* /////////////////////////////// */
+
 .topNav {
 	width: 100%;
 	height: 10%;
@@ -24,6 +34,130 @@
 	width: 100%;
 	color: #036868;
 }
+
+/* //////////////////////////// */
+/* //////////////////////////// */
+/* //////////////////////////// */
+/* ////////// Hero /////////////*/
+/* //////////////////////////// */
+/* //////////////////////////// */
+/* //////////////////////////// */
+
+.hero {
+	background: url("https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FnewSplash.png?v=1585755168923")
+		no-repeat right top;
+	background-size: 100% 620px;
+	background-size: cover;
+	position: relative;
+	height: 600px;
+	width: 100%;
+}
+
+.hero-overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.hero-container {
+	max-width: 60%;
+	margin: auto;
+}
+
+.hero-content {
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero-content h1 {
+	font-size: 3rem;
+	color: #fff;
+	z-index: 2;
+}
+
+.hero-content p {
+	color: #fff;
+	z-index: 2;
+	margin: 1rem 0;
+	line-height: 1.5;
+}
+
+.hero-search-form {
+	z-index: 2;
+	margin: 1rem 0.6rem 0 0;
+}
+
+.hero-search-form input {
+	width: 100%;
+	padding: 1.2rem;
+	border-radius: 5px;
+	border: none;
+	color: #000;
+	font-size: 0.9rem;
+}
+
+.hero-search-form input:focus {
+	background: turquoise;
+	transition: 0.2s ease-in;
+}
+
+/* /////////////////// */
+/* // searched Type // */
+/* /////////////////// */
+#searchTabContainer {
+	width: 100%;
+	/* background-color: black; */
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+.searchTab {
+	/* display: block; */
+	display: flex;
+	justify-content: center;
+	background: salmon;
+	color: #fff;
+	width: 5rem;
+	padding: 0.5rem 0.6rem;
+	margin: 2px;
+	border-radius: 5px;
+	transition: filter 0.5s ease-in-out;
+	z-index: 3;
+}
+.searchTab:hover {
+	background-color: #40e0d0;
+	color: #fa8072;
+	filter: brightness(85%);
+	transition: 0.7s;
+	z-index: 3;
+}
+
+.trending-search-tags {
+	z-index: 2;
+}
+
+.trending-search-tags a {
+	color: #fff;
+	transition: 0.5s color;
+}
+
+.trending-search-tags a:hover {
+	color: turquoise;
+}
+
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* ////////// end of Hero /////////////*/
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
 
 .nameLogoContainer {
 	/* background: green; */
@@ -54,7 +188,7 @@
 
 .searchField input {
 	border-radius: 25px;
-	width: 25rem;
+	width: 35rem;
 	height: 1.5rem;
 	border: 3px solid teal;
 	background-color: #eee;
@@ -75,6 +209,7 @@
 
 .searchField input:focus {
 	background: rgb(123, 204, 204);
+	background: turquoise;
 	/* border: solid salmon; */
 	transition: 0.2s ease-in;
 }
@@ -126,6 +261,11 @@ button:focus {
 	display: flex;
 	/* position: absolute; */
 	padding-top: 5%;
+}
+
+.GuestView {
+	display: flex;
+	flex-direction: column;
 }
 
 /* ///////////////// */
