@@ -346,7 +346,6 @@ button:focus {
 .myNewsSec {
 	/* background: rgb(146, 219, 212); */
 	background: white;
-
 	/* border: 1px solid salmon; */
 	width: 100%;
 	/* height: 50%; */
@@ -366,7 +365,7 @@ button:focus {
 }
 
 .hintsContainer {
-	/* background: turquoise; */
+	background-color: #f8f8f8;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -406,7 +405,7 @@ button:focus {
 		rgb(255, 227, 224)
 	); */
 	/* width: 200px; */
-	/* background: turquoise; */
+	background: white;
 	border: 1px solid salmon;
 	width: 30rem;
 	/* height: 240px; */
