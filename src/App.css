@@ -11,36 +11,36 @@
 .topNav {
 	width: 100%;
 	height: 10%;
-	/* width: 1000px; */
-	/* background: gray; */
-	/* background: linear-gradient(to bottom, #a6e7e1, white); */
 	background: white;
-	/* border-bottom: turquoise; */
+	/* background: yellow; */
 	border-bottom-style: solid;
-
 	display: flex;
-	/* flex-direction: row; */
 	align-items: center;
 	justify-content: space-between;
+	/* justify-content: space-evenly;
+	justify-content: space-around; */
 	position: fixed;
 	top: 0;
 	width: 100%;
 	color: #036868;
 }
 
-.container {
+.nameLogoContainer {
 	/* background: green; */
 	/* height: 20%; */
 	/* width: 600px; */
+	/* width: 20%; */
 	align-self: center;
 	display: flex;
 	justify-content: center;
 	/* width: 75rem; */
+	/* padding-left: 24rem; */
+	margin-left: 3rem;
 }
 
 .titleSec {
 	/* background: yellow; */
-	margin-left: 20px;
+
 	width: 10rem;
 	height: 4rem;
 }
@@ -61,7 +61,7 @@
 	padding: 0.3rem;
 	font-size: 0.9rem;
 	color: #333;
-	/* align-self: center; */
+	align-self: center;
 
 	/* 
 	border-radius: 20px;
