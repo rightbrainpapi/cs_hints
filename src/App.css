@@ -246,10 +246,7 @@ button:focus {
 /* ///////////////// */
 
 .displaySec {
-	background: red;
-	background: #036868;
-	/* background: rgb(248, 195, 189);
-	background: salmon; */
+	/* background: #036868; */
 
 	color: white;
 	margin: 20px 0 10px 0;
@@ -261,13 +258,15 @@ button:focus {
 	justify-content: center;
 	justify-content: space-evenly;
 	/* background: turquoise; */
-	border-radius: 30px;
+	/* border-radius: 30px; */
 	border-left-style: solid;
+	border-style: double;
 	color: #036868;
 	margin-right: 20px;
 }
 .pageTitle {
 	color: white;
+	color: #036868;
 }
 /* ////////////////// */
 /* Weather Component */
