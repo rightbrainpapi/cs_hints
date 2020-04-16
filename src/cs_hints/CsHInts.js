@@ -67,6 +67,14 @@ class CsHints extends Component {
 							/>
 						</div>
 					</div>
+
+					<div className="searchField">
+						<input
+							type="text"
+							placeholder="Search for excellent coding resources"
+						/>
+					</div>
+
 					<div className="buttonContainer">
 						<button className="joinBtn">logout</button>
 					</div>
