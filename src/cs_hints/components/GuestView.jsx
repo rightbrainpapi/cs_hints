@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TopNav from "./TopNav";
 import ProfilePage from "./ProfilePage";
 import Header from "./Header";
+import Footer from "./Footer";
 
 // import "./styles/GuestView.css";
 
@@ -57,11 +58,7 @@ class GuestView extends Component {
 						<div className="hero-overlay"></div>
 					</section>
 					<ProfilePage />
-					<footer className="footerContainer">
-						<div className="footer">
-							<h4>Copyright &copy; 2019 | CS Hints Group LLC. </h4>
-						</div>
-					</footer>
+					<Footer />
 				</div>
 			</div>
 		);
