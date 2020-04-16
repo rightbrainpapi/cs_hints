@@ -3,9 +3,11 @@ import { FaEdit } from "react-icons/fa";
 
 import Button from "./components/Button.jsx";
 import Page from "./components/Page.jsx";
-import TopNav from "./components/TopNav.jsx";
+// import TopNav from "./components/TopNav.jsx";
+// import Footer from "./components/Footer.jsx";
+// import Header from "./components/Header.jsx";
 
-class CsHints extends Component {
+class UserView extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -54,8 +56,7 @@ class CsHints extends Component {
 	render() {
 		return (
 			<div className="parentContainer">
-				<TopNav />
-				<div className="CsHints">
+				<div className="UserView">
 					<div className="leftPanel">
 						<div className="userSec">
 							<img
@@ -102,4 +103,4 @@ class CsHints extends Component {
 	}
 }
 
-export default CsHints;
+export default UserView;

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Merriweather:wght@300&display=swap");
 .App {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	color: #1f2231;
 }
@@ -17,6 +18,16 @@
 /* ////////////////////////////// */
 /* ////////////////////////////// */
 /* ////////////////////////////// */
+
+.header {
+	border-bottom-style: solid;
+	background: white;
+	width: 100%;
+	color: #036868;
+	position: fixed;
+	top: 0px;
+	z-index: 7;
+}
 
 ul {
 	list-style: none;
@@ -224,6 +235,7 @@ button:focus {
 	position: relative;
 	height: 600px;
 	width: 100%;
+	margin-top: 5%;
 }
 
 .hero-overlay {
@@ -423,9 +435,9 @@ button:focus {
 }
 
 /* ///////////////// */
-/* CsHints Component */
+/* UserView Component */
 /* ///////////////// */
-.CsHints {
+.UserView {
 	background: #fffcfc;
 
 	width: 100vw;
@@ -433,7 +445,7 @@ button:focus {
 
 	display: flex;
 	/* position: absolute; */
-	padding-top: 5%;
+	/* padding-top: 5%; */
 }
 
 .GuestView {
@@ -658,7 +670,7 @@ button:focus {
 .myHintsSec,
 .myNewsSec {
 	/* background: rgb(146, 219, 212); */
-	background: white;
+	/* background: white; */
 	/* border: 1px solid salmon; */
 	width: 100%;
 	/* height: 50%; */
@@ -675,6 +687,8 @@ button:focus {
 .secTitle {
 	margin: 10px;
 	color: #036868;
+	text-decoration: underline;
+	font-size: 2rem;
 }
 
 .hintsContainer {
@@ -682,17 +696,12 @@ button:focus {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	height: 100%;
-	/* justify-content: space-evenly; */
-	/* margin: 20px; */
-	/* width: 94%; */
 	height: 14rem;
 	min-height: 35%;
 	overflow-x: hidden;
 	overflow-x: auto;
 	align-items: center;
 	justify-content: center;
-	/* justify-content: flex-start; */
 }
 
 .sectionDivider {
@@ -702,7 +711,7 @@ button:focus {
 }
 
 .myNewsSec {
-	background: white;
+	/* background: white; */
 }
 
 /* ///////////////////// */

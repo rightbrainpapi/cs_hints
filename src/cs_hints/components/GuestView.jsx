@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import TopNav from "./TopNav";
+// import TopNav from "./TopNav";
 import ProfilePage from "./ProfilePage";
-import Header from "./Header";
-import Footer from "./Footer";
+import SearchResults from "./SearchResults";
+// import Header from "./Header";
+// import Footer from "./Footer";
 
 // import "./styles/GuestView.css";
 
@@ -10,8 +11,6 @@ class GuestView extends Component {
 	render() {
 		return (
 			<div className="parentContainer">
-				<Header />
-
 				<div className="GuestView">
 					<section className="hero">
 						<div className="hero-container">
@@ -57,8 +56,7 @@ class GuestView extends Component {
 						</div>
 						<div className="hero-overlay"></div>
 					</section>
-					<ProfilePage />
-					<Footer />
+					<SearchResults />
 				</div>
 			</div>
 		);

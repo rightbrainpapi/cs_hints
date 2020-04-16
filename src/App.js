@@ -3,15 +3,17 @@ import React from "react";
 //Personal Imports
 // import WeatherCard from "./WeatherCard";
 import "./App.css";
-import CsHints from "./cs_hints/CsHInts";
+import UserView from "./cs_hints/UserView";
 import GuestView from "./cs_hints/components/GuestView";
+import Header from "./cs_hints/components/Header";
+import Footer from "./cs_hints/components/Footer";
 
 function App() {
 	// whenClicked is a property not an event, per se
 
 	function UserInterface(props) {
 		return (
-			<CsHints
+			<UserView
 				userName="Darnell"
 				userPicSrc="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Fdarnell.png?v=1584322716006"
 			/>
@@ -31,7 +33,9 @@ function App() {
 	}
 	return (
 		<div className="App">
+			<Header />
 			<Greeting isLoggedIn={false} />
+			<Footer />
 		</div>
 	);
 }
