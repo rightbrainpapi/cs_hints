@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./styles/Page.css";
+// import "./styles/Page.css";
 import ProfilePage from "./ProfilePage";
 import ResourcePage from "./ResourcePage";
 import CsHintsPage from "./CsHintsPage";

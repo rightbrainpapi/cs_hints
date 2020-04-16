@@ -108,14 +108,16 @@ class CsHints extends Component {
 						</div>
 					</div>
 					<div className="displaySec">
-						<h2 className="pageTitle">
-							{
-								//Check if message failed
-								this.state.page.toUpperCase() === "Logout"
-									? "Profile".toUpperCase()
-									: this.state.page.toUpperCase()
-							}
-						</h2>
+						<div className="pageTitleContainer">
+							<h2 className="pageTitle">
+								{
+									//Check if message failed
+									this.state.page.toUpperCase() === "Logout"
+										? "Profile".toUpperCase()
+										: this.state.page.toUpperCase()
+								}
+							</h2>
+						</div>
 						<Page selectedPage={this.state.page} />
 					</div>
 				</div>
