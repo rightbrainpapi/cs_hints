@@ -52,6 +52,138 @@ class SearchResults extends Component {
 						tags: "learning",
 						cost: "free",
 					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
+					{
+						title: "Raspberry Pi",
+						website: "https://www.raspberrypi.org/",
+						image:
+							"https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png",
+						description:
+							"Raspberry Pi is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world. They do this so that more people are “able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.”",
+						category: "non-profit",
+						tags: "learning",
+						cost: "free",
+					},
 				],
 				// tools:[]
 			},
@@ -60,11 +192,11 @@ class SearchResults extends Component {
 
 	render() {
 		return (
-			<div className="ProfilePage">
-				<div className="myHintsSec">
+			<div className="SearchResults">
+				<div className="myResultSec">
 					<h3 className="secTitle">myHintsSec</h3>
 
-					<div className="hintsContainer">
+					<div className="searchResultsContainer">
 						{this.state.myHints.tutorials.map((tutHints, i) => {
 							return (
 								<SingleHint

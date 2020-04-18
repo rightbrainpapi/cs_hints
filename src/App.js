@@ -44,7 +44,7 @@ function App() {
 	}
 	return (
 		<div className="App">
-			<Greeting isLoggedIn={false} />
+			<Greeting isLoggedIn={true} />
 			<Footer />
 		</div>
 	);
