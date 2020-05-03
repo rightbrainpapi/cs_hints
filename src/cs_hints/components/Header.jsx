@@ -1,8 +1,24 @@
 import React, { Component } from "react";
+import Modal from "./Modal";
 
 // import "./styles/TopNav.css";
 
 class Header extends Component {
+	state = {
+		username: "",
+		password: "",
+		email: "",
+		phone_number: "",
+		authenticationCode: "",
+		step: 0,
+		show: false,
+	};
+	showModal = (e) => {
+		console.log("This is working");
+		this.setState({
+			show: !this.state.show,
+		});
+	};
 	render() {
 		return (
 			<div className="header">
@@ -33,9 +49,23 @@ class Header extends Component {
 							<a href="https://cshints.com/">Login</a>
 						</li>
 						<li>
-							<a href="https://cshints.com/" id="buttonTrig" className="button">
+							{/* <a href="https://cshints.com/" id="buttonTrig" className="button">
 								Join Free
-							</a>
+							</a> */}
+							<Modal onClose={this.showModal} show={this.state.show}>
+								Message in Modal
+							</Modal>
+
+							<button
+								className="toggle-button"
+								id="centered-toggle-button"
+								onClick={(e) => {
+									this.showModal(e);
+								}}
+							>
+								{" "}
+								Join Free
+							</button>
 						</li>
 					</ul>
 				</nav>

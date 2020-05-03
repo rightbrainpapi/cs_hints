@@ -119,7 +119,7 @@ a {
 	font-weight: 550px;
 }
 
-.nav li:last-child a {
+.nav li:last-child button {
 	display: block;
 	/* background: #3cb46e; */
 	background: salmon;
@@ -864,6 +864,97 @@ button:focus {
 
 .hintIcon {
 	width: 5rem;
+}
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* //////Modal section */
+/* ///////////////////////// */
+/* ///////////////////////// */
+.modal {
+	align-self: center;
+	justify-self: center;
+	width: 500px;
+	background: white;
+	border: 1px solid #ccc;
+	transition: 1.1s ease-out;
+	box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+	filter: blur(0);
+	transform: scale(1);
+	opacity: 1;
+	visibility: visible;
+}
+.modal.off {
+	opacity: 0;
+	visibility: hidden;
+	filter: blur(8px);
+	transform: scale(0.33);
+	box-shadow: 1rem 0 0 rgba(0, 0, 0, 0.2);
+}
+/* @supports (offset-rotate: 0deg) {
+	offset-rotate: 0deg;
+	offset-path: path("M 250,100 S -300,500 -700,-200");
+	.modal.off {
+		offset-distance: 100%;
+	}
+} */
+/* @media (prefers-reduced-motion) {
+	.modal {
+		offset-path: none;
+	}
+} */
+.modal h2 {
+	border-bottom: 1px solid #ccc;
+	padding: 1rem;
+	margin: 0;
+}
+.modal .content {
+	padding: 1rem;
+}
+.modal .actions {
+	border-top: 1px solid #ccc;
+	background: #eee;
+	padding: 0.5rem 1rem;
+}
+.modal .actions button {
+	border: 0;
+	background: #78f89f;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	font-size: 0.8rem;
+	line-height: 1;
+}
+
+/* //////////////////////// */
+/* ////// modal form ////// */
+/* //////////////////////// */
+.modal-contents {
+	height: 45%;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+	z-index: 5;
+}
+
+.modal-contents h1 {
+	color: black;
+	font-weight: 400;
+}
+
+.modal-contents img {
+	width: 10%;
+	height: 15%;
+	border-radius: 50%;
+	border: solid;
+}
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
 }
 
 /* //////////////////////// */
